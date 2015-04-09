@@ -1,0 +1,11 @@
+Package: simBM
+Version: 0.1
+Package: simBM
+Version: 0.1
+Author: Zifeng Zhao
+Maintainer: Zifeng Zhao <zifeng@stat.wisc.edu>
+License: MIT + file LICENSE
+Title: Brownian Motion
+Description: Simulate Brownian Motion
+Suggests: knitr, rmarkdown
+VignetteBuilder: knitr

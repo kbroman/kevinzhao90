@@ -1,0 +1,19 @@
+output: rmarkdown::html_vignette
+vignette: >
+      %\VignetteIndexEntry{Intro to simBM}
+      %\VignetteEngine{knitr::rmarkdown}
+      \usepackage[utf8](inputenc)
+
+```{r loadPackage}
+library(simBM)
+library(knitr)
+```
+
+Here is an example of simulating length=1000 2D Brownian Motion and plot it.
+```{r Example}
+n=1000
+sigma=1
+
+bm=simBM(n=n,sigma=sigma)
+plotBM(bm)
+```

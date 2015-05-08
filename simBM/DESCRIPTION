@@ -5,5 +5,5 @@ Maintainer: Zifeng Zhao <zifeng@stat.wisc.edu>
 License: MIT + file LICENSE
 Title: Brownian Motion
 Description: Simulate Brownian Motion
-Suggests: knitr, rmarkdown
+Suggests: knitr, rmarkdown, testthat
 VignetteBuilder: knitr

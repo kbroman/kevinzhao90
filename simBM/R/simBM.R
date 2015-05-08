@@ -1,10 +1,16 @@
 #' simBM
+#' 
 #' simulate 2D Brownian Motion
 #'
-#' @param simulated BM length and standard deviation
+#' @param n simulated BM length 
+#' @param sigma standard deviation of each step
+#' 
+#' @return Matrix with two columns, rows are (x, y) coordinates
+#'
+#' @examples
+#' x <- simBM(1000)
 #' 
 #' @export
-#' @return Vector of simulated BM path
 simBM<-
   function(n=1000, sigma=0.1){
     
